@@ -11,7 +11,6 @@ metadata:
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=hello-world'
 spec:
-  system: hello-world
   type: service
   lifecycle: experimental
   owner: default-team
